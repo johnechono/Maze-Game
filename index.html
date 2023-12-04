@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Maze Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>The Maze</h1>
+
+    <p>The Maze is a three-dimensional game developed using SDL2 and Raycasting. Players can navigate in all four directions on the map using the keys W, A, S, and D.</p>
+
+    <p>Moving through the maze, players have the freedom to turn left or right as they please. In the event of a collision with a wall, players cannot proceed unless they change their direction. Players are capable of moving in various directions and simultaneously rotating.</p>
+
+    <h2>Installation</h2>
+
+    <pre>
+        <code>
+            Clone this repository:
+
+            git clone https://github.com/johnechono/Maze-Game.git
+
+            Compiling:
+
+            This project relies on gcc and make for the compilation process.
+
+            Windows:
+
+            Ensure gcc and make are installed, preferably through chocolatey. Then execute the following command:
+
+            make
+
+            Linux:
+
+            Ensure SDL2 is installed. If not, run the following make commands:
+
+            make linux_install
+
+            Then compile using:
+
+            gcc src/*.c -Wall -Werror -Wextra -pedantic -lSDL2 -DLINUX -o maze -lm
+
+            Mac:
+
+            Ensure SDL2 is installed, then run the following command:
+
+            make mac
+
+            Running:
+
+            After a successful compilation, run the program using the following command:
+
+            ./maze MAP
+
+            Here, MAP is the name of the file found in the maps folder. Additional maps can be created and passed while running the program as described above. Map files only accept the allowed characters.
+
+            Controls:
+
+            W - Move forward
+            S - Move backward
+            A - Look left
+            D - Look right
+            Mouse move left/right - Look left or right
+            M - Turn off map visibility. The 2D map won't be visible on clicking
+            N - Turn on map visibility. The 2D map will be visible again
+
+            Author:
+
+            Echono John Inalegwu (github.com/johnechono)
+        </code>
+    </pre>
+
+</body>
+</html>
+``
