@@ -62,6 +62,36 @@ Here, `MAP` is the name of the file found in the maps folder. Additional maps ca
 - `M` - Turn off map visibility. The 2D map won't be visible on clicking
 - `N` - Turn on map visibility. The 2D map will be visible again
 
+# Directories
+
+[`src`](https://github.com/johnechono/The-Maze/tree/main/src)
+Contains all the source code files written in C.
+
+[`inc`](https://github.com/johnechono/The-Maze/tree/main/inc)
+Contains all the header files.
+
+[`maps`](https://github.com/johnechono/The-Maze/tree/main/maps)
+Contains map data files. This will be used by the program to output the map layout.
+
+[`images`](https://github.com/johnechono/The-Maze/tree/main/images)
+Contains image files.
+
+# Images
+![image](https://user-images.githubusercontent.com/44834632/138765500-bd3838d0-fe46-4018-87b0-21143fb77e8b.png)
+ 
+## Texture sources
+**Weapon**
+https://www.seekpng.com/idown/u2w7u2t4i1y3a9y3_call-of-duty-guns-firearms-gun-weapons-coat/
+
+## If you want to contribute to this project
+
+- Read the source files in ```src``` folder and the header files in ```inc``` folder.
+- Clone the repo and make a new branch: $ git checkout https://github.com/johnechono/The-Maze -b [name_of_new_branch].
+- Add a feature, fix a bug, or refactor some code :)
+- Write/update tests for the changes you made, if necessary.
+- Update README.md if necessary.
+- Open a Pull Request with a comprehensive description of changes.
+- 
 # Author
 
 Echono John Inalegwu ([GitHub](https://github.com/johnechono))
