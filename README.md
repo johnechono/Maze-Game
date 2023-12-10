@@ -64,16 +64,16 @@ Here, `MAP` is the name of the file found in the maps folder. Additional maps ca
 
 # Directories
 
-[`src`](https://github.com/johnechono/Maze-Game/tree/main/src)
+[`src`](https://github.com/johnechono/Maze-Game/tree/master/src)
 Contains all the source code files written in C.
 
-[`inc`](https://github.com/johnechono/Maze-Game/tree/main/inc)
+[`inc`](https://github.com/johnechono/Maze-Game/tree/master/inc)
 Contains all the header files.
 
-[`maps`](https://github.com/johnechono/Maze-Game/tree/main/maps)
+[`maps`](https://github.com/johnechono/Maze-Game/tree/master/maps)
 Contains map data files. This will be used by the program to output the map layout.
 
-[`images`](https://github.com/johnechono/Maze-Game/tree/main/images)
+[`images`](https://github.com/johnechono/Maze-Game/tree/master/images)
 Contains image files.
 
 # Images
@@ -86,7 +86,7 @@ https://www.seekpng.com/idown/u2w7u2t4i1y3a9y3_call-of-duty-guns-firearms-gun-we
 ## If you want to contribute to this project
 
 - Read the source files in ```src``` folder and the header files in ```inc``` folder.
-- Clone the repo and make a new branch: $ git checkout https://github.com/johnechono/The-Maze -b [name_of_new_branch].
+- Clone the repo and make a new branch: $ git checkout https://github.com/johnechono/Maze-Game -b [name_of_new_branch].
 - Add a feature, fix a bug, or refactor some code :)
 - Write/update tests for the changes you made, if necessary.
 - Update README.md if necessary.
