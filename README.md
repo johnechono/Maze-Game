@@ -64,16 +64,16 @@ Here, `MAP` is the name of the file found in the maps folder. Additional maps ca
 
 # Directories
 
-[`src`](https://github.com/johnechono/The-Maze/tree/main/src)
+[`src`](https://github.com/johnechono/Maze-Game/tree/main/src)
 Contains all the source code files written in C.
 
-[`inc`](https://github.com/johnechono/The-Maze/tree/main/inc)
+[`inc`](https://github.com/johnechono/Maze-Game/tree/main/inc)
 Contains all the header files.
 
-[`maps`](https://github.com/johnechono/The-Maze/tree/main/maps)
+[`maps`](https://github.com/johnechono/Maze-Game/tree/main/maps)
 Contains map data files. This will be used by the program to output the map layout.
 
-[`images`](https://github.com/johnechono/The-Maze/tree/main/images)
+[`images`](https://github.com/johnechono/Maze-Game/tree/main/images)
 Contains image files.
 
 # Images
